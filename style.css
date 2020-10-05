@@ -1,17 +1,20 @@
+html,
 body {
   margin: 0 auto;
+  height: 100%;
 }
 
 .container {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
 }
 
 .zone {
   /* padding: 30px 50px;
   margin: 40px 60px; */
   cursor: pointer;
-  display: inline-block;
+  display: flex;
   color: #fff;
   font-size: 2em;
   border-radius: 4px;
