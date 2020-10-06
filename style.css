@@ -69,7 +69,15 @@ a {
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 
-img {
+.box > img {
+  /* fills in entire area*/
+  width: 100%;
+}
+
+.box {
+  background-color: #444;
+  padding: 130px;
+  margin: 20px;
 }
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
